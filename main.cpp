@@ -66,7 +66,18 @@ int main()
 //    else cout << b << " " << a;
 
     /// #9
-
+    float a, b;
+    cin >> a;
+    cin >> b;
+    if (a > b) {
+        a = a + b;
+        b = a - b;
+        a = a - b;
+        cout << "a:" << a << ' ' << "b:" << b;
+    }
+    else {
+        cout << "a:" << a << ' ' << "b:" << b;
+    }
 
 
 
